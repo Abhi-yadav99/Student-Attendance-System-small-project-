@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Attendance System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Attendance System</h1>
+        
+        <div class="add-student">
+            <input type="text" id="student-name" placeholder="Enter student name">
+            <button id="add-student-btn">Add Student</button>
+        </div>
+        
+        <div class="attendance-section">
+            <h2>Mark Attendance</h2>
+            <ul id="student-list"></ul>
+            <button id="submit-attendance">Submit Attendance</button>
+        </div>
+        
+        <div class="records-section">
+            <h2>Attendance Records</h2>
+            <div id="records"></div>
+            <button id="reset-session">Start New Session</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
